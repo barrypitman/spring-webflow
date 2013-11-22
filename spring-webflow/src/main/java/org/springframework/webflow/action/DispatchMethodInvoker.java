@@ -22,7 +22,7 @@ import java.util.Map;
 import org.springframework.binding.method.InvalidMethodKeyException;
 import org.springframework.binding.method.MethodKey;
 import org.springframework.util.Assert;
-import org.springframework.util.CachingMapDecorator;
+import org.springframework.binding.util.CachingMapDecorator;
 
 /**
  * Invoker and cache for dispatch methods that all share the same target object. The dispatch methods typically share

@@ -29,7 +29,7 @@ import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.context.support.AbstractMessageSource;
 import org.springframework.core.style.ToStringCreator;
-import org.springframework.util.CachingMapDecorator;
+import org.springframework.binding.util.CachingMapDecorator;
 
 /**
  * The default message context implementation. Uses a {@link MessageSource} to resolve messages that are added by

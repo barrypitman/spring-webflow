@@ -23,7 +23,7 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.binding.convert.ConversionService;
 import org.springframework.binding.convert.service.DefaultConversionService;
 import org.springframework.core.style.StylerUtils;
-import org.springframework.util.CachingMapDecorator;
+import org.springframework.binding.util.CachingMapDecorator;
 
 /**
  * A helper for invoking typed methods on arbitrary objects, with support for argument value type conversion from values
